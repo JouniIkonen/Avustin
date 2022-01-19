@@ -29,7 +29,7 @@ Esimerkiksi:
 
 Sanan kokoa ei ole rajattu:
 
-`./avustin.sh li...ä t
+`./avustin.sh li...ä t`
 
 liereä
 
@@ -37,6 +37,5 @@ lilliä
 
 lipevä
 
-lirinä`
-
+lirinä
 

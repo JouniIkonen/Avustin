@@ -26,3 +26,13 @@ Esimerkiksi:
 
 `./avustin.sh lin.tu`        - etsii viisimerkkisiä sanoja jotka alkavat kirjaimilla li ja lopuvat kirjaimiin tu
 
+
+Sanan kokoa ei ole rajattu:
+
+`./avustin.sh li...ä t
+liereä
+lilliä
+lipevä
+lirinä`
+
+

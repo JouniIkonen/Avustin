@@ -1,4 +1,5 @@
-#!/bin/bash# Tämä skripti etsii sanakirjaan sopivia sanoja annetuilla hakuehdoilla
+#!/bin/bash
+# Tämä skripti etsii sanakirjaan sopivia sanoja annetuilla hakuehdoilla
 
 
 function parsi_kirjaimet ()

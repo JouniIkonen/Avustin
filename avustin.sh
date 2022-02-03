@@ -20,6 +20,13 @@ function parsi_kirjaimet ()
 	
 }
 
+if [ ! -f sanat.txt ]; then
+	echo "sanat.txt tiedosto puuttuu. Yritetään luoda"
+	./hae_sanakirja.sh
+
+fi
+
+
 if [ $# -lt 1 ]; then
 	echo "$0 <etsittävän sanan osa> <kirjaimet joita sanassa ei ole> <kirjaimet joita on pakko olla>"
 	echo "Etsii 5 kirjaimisia sanoja, tuntemattomat kirjaimet merkitään pisteellä." 
